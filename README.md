@@ -66,7 +66,8 @@ DAG contains default_args dict bind to the DAG, with the following keys:
 
 * Task dependencies are set as following:
 
-![../images/airflow_data_pipeline.png](../images/airflow_data_pipeline.png)
+ ![image](https://user-images.githubusercontent.com/47276503/224646997-a0679307-a58d-4843-94e7-62bfd2817dcd.png)
+
 
 ### Operators
 Operators create necessary tables, stage the data, transform the data, and run checks on data quality.
@@ -114,3 +115,8 @@ For example one test could be a SQL statement that checks if certain column cont
 ### Airflow UI views of DAG and plugins
 
 The dag follows the data flow provided in the instructions, all the tasks have a dependency and DAG begins with a start_execution task and ends with a end_execution task.
+
+
+
+![image](https://user-images.githubusercontent.com/47276503/224646951-30b15ffb-b00f-4fc8-b869-421c53c278cc.png)
+
